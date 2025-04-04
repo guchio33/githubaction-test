@@ -4,6 +4,7 @@ on:
   pull_request:
     branches:
       - develop
+    types: [opened, synchronize, reopened]
 
 jobs:
   echo_hello_wordls:
